@@ -38,7 +38,7 @@ body {
 .logo-menu-container {
     display: flex;
     align-items: center;
-    width: 100%
+    width: 80%
 }
 
 .logo {
@@ -88,7 +88,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
     border-radius: 32px;
     font-weight: 700;
@@ -186,8 +186,17 @@ button {
     margin: auto;
 }
 
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
 .shorten-area-container input[type="text"] {
-    width: 80%;
+    width: 40vw;
     padding: 15px;
     font-family: 'Poppins';
     outline: none;
